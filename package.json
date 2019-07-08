@@ -1,0 +1,15 @@
+{
+    "author": "i-core",
+    "name": "hellobdd",
+    "version": "1.0.0",
+    "description": "Example",
+    "license": "MIT",
+    "scripts": {
+        "test:json": "cucumber-js -f json -r 'features/**/*.js' features/",
+        "test:summary": "cucumber-js -f summary -r 'features/**/*.js' features/"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "cucumber": "^5.1.0"
+    }
+}
